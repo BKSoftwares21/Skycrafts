@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Login from './Data/Login';
-import Register from './Data/Register';
+import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-   <Login /> 
-  <Register />
+   <App />
   </React.StrictMode>,
 )
